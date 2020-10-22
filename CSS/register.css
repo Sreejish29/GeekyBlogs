@@ -1,0 +1,9 @@
+#reg-top {
+    height: 1700px;
+    background: linear-gradient(to right bottom, hsla(0, 0%, 36%, 0.700), hsla(153, 12%, 14%, 0.700) ), url(../Assets/reg-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    backface-visibility: hidden;
+}

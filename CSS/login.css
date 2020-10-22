@@ -1,0 +1,71 @@
+#login-top {
+    height: 1250px;
+    background: linear-gradient(to right bottom, hsla(0, 0%, 36%, 0.700), hsla(153, 12%, 14%, 0.700) ), url(../Assets/login-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+
+
+
+
+
+.login-text {
+    position: relative;
+    top: 180px;
+    background: transparent;
+    border: none;
+    left: 60px;
+    width: 90vh;
+}
+
+.text-title {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.text-d {
+    margin: auto;
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 200;
+    width: 35vw;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+.login-title {
+    position: relative;
+    bottom: 40px;
+    background-color: #222020;
+    color: #ffffff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Economica', sans-serif;
+}
+
+.container-l {
+    position: relative;
+    top: 130px;
+    /* right: 100px; */
+    background-color: #fff;
+    color: #000;
+    margin: 0 0 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30vw;
+}

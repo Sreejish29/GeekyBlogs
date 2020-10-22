@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all 0.3s ease-out;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+#top {
+    height: 750px;
+    background: linear-gradient(to right bottom, hsla(0, 0%, 36%, 0.74), hsla(153, 12%, 14%, 0.774) ), url(../Assets/gears.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+.nav-logo {
+    font-family: 'Economica', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-nav-links {
+    color: #fff;
+    margin-left: 20px;
+    transition: 0.3s ease-out;
+    padding: 10px 10px;
+}
+
+.nav-nav-links:hover{
+    padding: 10px;
+    transform: scaleY(-10px);
+    color: #949494;
+    box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
+}
+
+.text-box {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 60px;
+}
+
+.header-title {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+}
+
+.header-sub-title {
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-h {
+    box-shadow: 2px 5px 7px #807f7f;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+    backface-visibility: hidden;
+}
+
+.card-h:hover{
+    box-shadow: 0 10px 5px #555454;
+    transform: translateY(-3px);
+}
+
+.card-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #000000;
+    transition: all 0.4s ease-out;
+}
+
+.card-title:hover {
+    color: #535252;
+}
+
+.card-text {
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    height: 350px;
+    background-color: #000;
+    text-align: center;
+}
+
+.foot-box {
+    position: relative;
+    background-color: #000;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.foot-title {
+    margin-bottom: 60px;
+}
+
+.foot-logo {
+    margin-top: 20px;
+    font-family: 'Economica', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder; 
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.foot-links {
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 30px 0 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.foot-logo:hover, .foot-links:hover{
+    color: #747474;
+    text-decoration: none;
+}
+
+.foot-text {
+    margin-top: 50px;
+    text-align: center;
+}
